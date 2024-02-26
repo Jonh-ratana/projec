@@ -1,0 +1,79 @@
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .photo img{
+    height: 700px !important;
+  }
+  .all{
+    position: absolute !important;
+  top: 690px !important;
+  width: 100% !important;
+  height: 500px !important;
+  justify-content: space-between !important;
+  }
+  .card-all{
+    width: 100% !important;
+    display: flex !important;
+  }
+  .card{
+    width: 25% !important;
+    margin: 5px 10px !important;
+
+  }
+}
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+}
+.conten-all{
+ 
+}
+.menu{
+  position: absolute;
+  position: sticky;
+  top: 0;
+
+}
+.photo{
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}
+.photo img{
+  height: 500px;
+}
+.information{
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+}
+.text{
+  position: absolute;
+  top: 150px;
+  width: 90%;
+  color: white;
+}
+.all{
+  position: absolute;
+  top: 490px;
+  width: 100%;
+
+  background-color: black;
+}
